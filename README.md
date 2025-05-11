@@ -9,7 +9,7 @@ Pedagogical Layer: Custom Prompt Engineering
 
 Data Flow: REST API → Prompt Templating → LLM Generation → Structured Output
 ```
-<img src="/content//flowchart1.png" width="650" height="300" alt="Flowchart">  
+<img src="/content//flowchart1.png" width="1000" height="280" alt="Flowchart">  
 
 
 ## 🚀 Overview  
