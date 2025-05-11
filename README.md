@@ -1,6 +1,17 @@
 # PedagogAI🔥📚  
-*AI-Powered Lesson Planning with Pedagogical Integrity*  
- 
+*This system shifts AI-generated lesson plans from teacher-centered to student-driven by structurally embedding agency and dialogue. It aligns with the research’s findings that intentional prompt engineering can mitigate biases while promoting modern pedagogy.*  
+```
+Framework: FastAPI (Python)
+
+AI Core: LangChain + OpenAI GPT
+
+Pedagogical Layer: Custom Prompt Engineering
+
+Data Flow: REST API → Prompt Templating → LLM Generation → Structured Output
+```
+<img src="/content/flowchart.png" width="600" alt="Flowchart">  
+
+
 ## 🚀 Overview  
 **PedagogAI** is an AI lesson planner built to address the pedagogical biases exposed in [*Pedagogical Biases in AI-Powered Educational Tools* (Chen et al., 2024)](https://socialinnovationsjournal.com/index.php/sij/article/view/10004/8134). Unlike generic AI tools, it:  
 - **Reduces teacher-centered bias** by 63% (based on UPenn study metrics)  
@@ -70,5 +81,4 @@ Sample Response
 }
 ```
 
-<img src="https://i.imgur.com/7mR5V0d.png" width="600" alt="LessonForge vs Traditional AI Comparison">  
 
