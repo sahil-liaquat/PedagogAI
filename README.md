@@ -14,11 +14,13 @@
 - Generates lessons with **5x more student choice moments** than ChatGPT  
 
 ## 🤖 Core functionality
+```
 def generate_lesson():
     apply_research_guardrails()  # From UPenn study
     enforce_student_agency()     # Vaughn's Framework
     inject_dialogic_learning()   # Alexander's Principles
     return revolutionary_lesson
+```
  
 ## ⚙️ Installation  
 ```bash  
