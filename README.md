@@ -21,3 +21,50 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt  
 uvicorn main:app --reload
+```
+
+## 💡 Usage
+Start API Server
+Generate Lesson Plan (Example)
+
+```bash
+curl -X POST "http://localhost:8000/generate_content/" \
+-H "Content-Type: application/json" \
+-d '{
+  "content_type": "lesson_plan",
+  "subject": "Environmental Science",
+  "grade_level": "Grade 7",
+  "topic": "Climate Change",
+  "duration": 55,
+  "curriculum_standards": "NGSS MS-ESS3-5",
+  "student_needs": "Dyslexic students, kinesthetic learners",
+  "pedagogical_preferences": "Project-based learning",
+  "additional_information": "Focus on local impacts"
+}'
+```
+Sample Response
+
+```bash
+{
+  "lesson_plan": {
+    "learning_objectives": [
+      "Students will design actionable climate solutions through self-selected projects",
+      "Develop peer feedback skills through structured gallery walks"
+    ],
+    "agency_checkpoints": [
+      "Goal-setting worksheet",
+      "Choice of presentation format (digital/physical)",
+      "Peer assessment rubrics"
+    ],
+    "dialogue_phases": [
+      "Think-Pair-Share: Initial reactions to climate data",
+      "Fishbowl Debate: Policy vs individual responsibility"
+    ]
+  },
+  "pedagogical_report": {
+    "teacher_talk_time": "12%",
+    "student_choice_points": 4,
+    "bias_mitigation_score": "88/100"
+  }
+}
+```
