@@ -13,13 +13,11 @@
 - Embeds **Vaughn's Student Agency Framework** and **Alexander's Dialogic Principles**  
 - Generates lessons with **5x more student choice moments** than ChatGPT  
 
-## 🤖 Core functionality
+## ✅ Implemented Research Features
 ```
-def generate_lesson():
-    apply_research_guardrails()  # From UPenn study
-    enforce_student_agency()     # Vaughn's Framework
-    inject_dialogic_learning()   # Alexander's Principles
-    return revolutionary_lesson
+1. Student Agency Framework (Vaughn)
+2. Dialogic Principles (Alexander)
+3. Bias Mitigation
 ```
  
 ## ⚙️ Installation  
