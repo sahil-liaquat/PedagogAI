@@ -30,7 +30,7 @@ class LessonRequest(BaseModel):
     additional_information: str = ""
      
 
-llm = OpenAI(temperature=0.7, openai_api_key=os.getenv("OPENAI_API_KEY"))
+llm = OpenAI(temperature=0.7,max_tokens=1500, openai_api_key=os.getenv("OPENAI_API_KEY"))
 
 
 lesson_prompt_template = PromptTemplate(
